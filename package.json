@@ -1,0 +1,30 @@
+{
+  "name": "unit-test-example",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "unit testing example",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "c8 npm test",
+    "lint": "eslint ./ --fix",
+    "prepare":"husky install"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^9.1.1",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "globals": "^15.0.0",
+    "husky": "^9.0.11"
+  },
+  "dependencies": {
+    "c8": "^9.1.0",
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0",
+    "mochawesome": "^7.1.3"
+  }
+}
